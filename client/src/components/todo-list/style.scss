@@ -1,0 +1,12 @@
+.todo-num {
+  height: 1.25rem;
+  line-height: 1.25rem;
+
+  &.in-progress-num {
+    background-color: var(--blue-48-64);
+  }
+
+  &.done-num {
+    background-color: var(--green-48-64);
+  }
+}

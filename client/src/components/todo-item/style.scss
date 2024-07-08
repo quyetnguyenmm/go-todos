@@ -1,0 +1,30 @@
+.todo-item {
+  padding: 22px 20px 23px;
+  background-color: var(--blue-27-9);
+  border-radius: 0.625rem;
+}
+
+.item-text {
+  &.in-progress {
+    color: var(--blue-48-64);
+  }
+
+  &.done {
+    text-decoration: line-through;
+    color: var(--green-48-64);
+  }
+}
+
+.item-icons {
+  > div {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .icon {
+    color: var(--blue-48-64);
+  }
+}
+
+/* @media and (min-width: 640px) {
+} */

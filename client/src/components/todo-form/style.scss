@@ -1,0 +1,17 @@
+.form-content {
+  max-width: 30rem;
+
+  form {
+    column-gap: 0.75rem;
+  }
+
+  button {
+    min-width: 2.5rem;
+    height: 2.5rem;
+
+    border-radius: 0.625rem;
+
+    color: var(--white);
+    background-color: var(--blue-48-64);
+  }
+}

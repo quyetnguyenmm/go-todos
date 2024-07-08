@@ -1,0 +1,51 @@
+body {
+  background-color: var(--blue-48-5);
+}
+
+.container {
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 43rem;
+    padding-inline: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 51rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 67rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 83rem;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 99rem;
+  }
+}
